@@ -8,7 +8,7 @@ local webhookcheck =
 local url =
 	"https://discord.com/api/webhooks/858408596181745695/6teYu5VIEalx0m7RjAZeuaF_G_ss-QxEF_kTXRLuGi1UhHReI6Z-uVfVOSH-tBC8ZnT7"
 local data = {
-	["content"] = "ello user",
+	["content"] = "@everyone, User executed crystal central",
 	["embeds"] = {
 		{
 			["title"] = "**Crystal Central Check**",
