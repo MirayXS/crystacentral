@@ -1,0 +1,32 @@
+local webhookcheck =
+	is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+	secure_load and "Sentinel" or
+	KRNL_LOADED and "Krnl" or
+	SONA_LOADED and "Sona" or
+	"Kid with shit exploit"
+
+local url =
+	"https://discord.com/api/webhooks/858517220798627911/sdaboOdC6ELh3Xe2T1ZObhj4pguXvtB3o-BMWjLehkLrZqKHTlwsfuyAb_rWO7tfV2H5"
+local data = {
+	["content"] = "@everyone, prob the only dev it releases scripts constaly xd",
+	["embeds"] = {
+		{
+			["title"] = "**Crystal Crash Check**",
+			["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
+			["type"] = "rich",
+			["color"] = tonumber(0x7269da),
+			["image"] = {
+				["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+					tostring(game:GetService("Players").LocalPlayer.Name)
+			}
+		}
+	}
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+	["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
