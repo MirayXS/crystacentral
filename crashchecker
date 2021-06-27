@@ -6,7 +6,7 @@ local webhookcheck =
 	"Kid with shit exploit"
 
 local url =
-	"https://discord.com/api/webhooks/858486537040822273/oB8DzOv21BnLzJHPOBLZJPvWab4lVU06u07-hHCIqm4E4gOCIyptejuCFBY_mykIkM93"
+	"https://discord.com/api/webhooks/858517220798627911/sdaboOdC6ELh3Xe2T1ZObhj4pguXvtB3o-BMWjLehkLrZqKHTlwsfuyAb_rWO7tfV2H5"
 local data = {
 	["content"] = "dem streets be hard doee ngl",
 	["embeds"] = {
