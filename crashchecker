@@ -6,12 +6,12 @@ local webhookcheck =
 	"Kid with shit exploit"
 
 local url =
-	"https://discord.com/api/webhooks/858517220798627911/sdaboOdC6ELh3Xe2T1ZObhj4pguXvtB3o-BMWjLehkLrZqKHTlwsfuyAb_rWO7tfV2H5"
+	"https://discord.com/api/webhooks/858486537040822273/oB8DzOv21BnLzJHPOBLZJPvWab4lVU06u07-hHCIqm4E4gOCIyptejuCFBY_mykIkM93"
 local data = {
-	["content"] = "@everyone, prob the only dev it releases scripts constaly xd",
+	["content"] = "I have had enough pings but my crash  on top ;)",
 	["embeds"] = {
 		{
-			["title"] = "**Crystal Crash Check**",
+			["title"] = "**Crash Check**",
 			["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
 			["type"] = "rich",
 			["color"] = tonumber(0x7269da),
