@@ -1,0 +1,6 @@
+ModIDS = {
+  [356542677] = true, -- Gen
+  [417497367] = true, -- Chris
+  [442610576] = true,  -- Gavin
+  [1582734778] = true -- Clementine
+}
